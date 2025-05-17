@@ -16,11 +16,14 @@ classDiagram
         +add()
         +remove()
         +get_child()
+        -children: List[Component]
     }
 
     class Cliente
 
     Component <|-- Leaf
     Component <|-- Composite
+    Composite o-- Component  %% esta es la relación de composición recursiva
     Cliente --> Component
+
 ```
