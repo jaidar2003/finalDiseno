@@ -1,3 +1,6 @@
+
+### Patrón Composite
+
 ```mermaid
 classDiagram
     class Component {
@@ -16,14 +19,15 @@ classDiagram
         +add()
         +remove()
         +get_child()
-        -children: List[Component]
+        -children: List~Component~
     }
 
     class Cliente
 
     Component <|-- Leaf
     Component <|-- Composite
-    Composite o-- Component  %% esta es la relación de composición recursiva
+    Composite o-- Component
     Cliente --> Component
+
 
 ```
