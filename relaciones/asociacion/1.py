@@ -30,4 +30,7 @@ profesor.ensenar()
 #estudiante1.estudiar()
 #estudiante2.estudiar()
 
-# asociacion: indica que una propiedad de una clase contiene una referencia a una instancia de otra clase
+
+# Asociacion linea recta >
+
+# una propiedad de una clase contiene una referencia a una instancia de otra clase

@@ -18,3 +18,8 @@ class Auto:
 
 auto = Auto("Toyota", "V6")
 auto.encender()  # <- esto sí llama al método
+
+
+# Composicion   linea recta ⬛️
+
+# una clase contiene a otra como parte fundamental de su estructura

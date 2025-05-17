@@ -23,4 +23,6 @@ figura = Cuadrado(10, 10)
 print('Area:', figura.area())
 print('Perimetro:', figura.perimetro())
 
-# implementacion: una clase implementa una interfaz y los metodos de la clase implementan todos los metodos de la declaracion de la interfaz
+# Implementacion ------|>
+
+# una clase implementa una interfaz y los metodos de la clase implementan todos los metodos declarados por la interfaz

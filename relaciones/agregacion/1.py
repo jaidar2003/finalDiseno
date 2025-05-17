@@ -17,9 +17,18 @@ class Curso:
 
 juanma = Alumno("Juanma")
 pedro = Alumno("Pedro")
+luci = Alumno("Luci")
+fran = Alumno("Fran")
 
-curso = Curso("Python")
+curso = Curso("Estadistica")
 curso.agregarAlumno(juanma)
 curso.agregarAlumno(pedro)
+curso.agregarAlumno(luci)
+curso.agregarAlumno(fran)
 
 curso.listarAlumnos()
+
+
+# Agregacion  linea recta🔲
+
+# los objetos miembros son parte del objeto general, pero el objeto miembro puede existir por fuera de la relacion
