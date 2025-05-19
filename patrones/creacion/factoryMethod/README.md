@@ -13,6 +13,8 @@ classDiagram
     Product <|-- ConcreteProduct
     ConcreteCreator --> ConcreteProduct
 ```
+
+```python
 # Creator: declara el método fábrica factoryMethod.
 
 # ConcreteCreator: implementa ese método para retornar un ConcreteProduct.
@@ -20,3 +22,4 @@ classDiagram
 # Product: interfaz del objeto a crear.
 
 # ConcreteProduct: implementación real que se retorna.
+```
