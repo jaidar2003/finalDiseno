@@ -22,13 +22,15 @@ classDiagram
     Client --> AbstractFactory
     Client --> AbstractProductA
     Client --> AbstractProductB
+```
 
-```
-```python
-# AbstractFactory: declara los métodos de creación de productos.
-# ConcreteFactory: implementa esos métodos para retornar productos concretos.
-# AbstractProductA: interfaz del primer tipo de producto.
-# AbstractProductB: interfaz del segundo tipo de producto.
-# ConcreteProductA: implementación real del primer tipo de producto.
-# ConcreteProductB: implementación real del segundo tipo de producto.
-```
+## Explicación
+**AbstractFactory**: declara los métodos para crear productos abstractos.
+
+**ConcreteFactory**: implementa los métodos para crear productos concretos.
+
+**AbstractProductA / B**: interfaz para los productos.
+
+**ConcreteProductA / B**: implementación real de productos.
+
+**Client**: usa solo las interfaces sin conocer clases concretas.
