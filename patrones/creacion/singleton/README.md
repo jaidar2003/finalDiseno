@@ -8,18 +8,12 @@ classDiagram
         + get_connection(): sqlite3.Connection
     }
 
-    note right of DatabaseConnection::_instance
-        Atributo estático que guarda la única instancia
+    note right of DatabaseConnection
+        _instance: atributo estático que guarda la única instancia\n
+        __new__: sobrescribe la creación del objeto para asegurar que siempre devuelva la misma instancia\n
+        get_connection: proporciona acceso global a la conexión
     end
-
-    note right of DatabaseConnection::__new__
-        Sobrescribe la creación del objeto para asegurar
-        que siempre devuelva la misma instancia
-    end
-
-    note right of DatabaseConnection::get_connection
-        Proporciona acceso global a la conexión
-    end
+ 
 ```
 ### Patrón Singleton
 El patrón Singleton asegura que una clase tenga una única instancia y proporciona un punto de acceso global a ella. Este patrón es útil cuando se necesita exactamente un objeto para coordinar acciones en todo el sistema.
