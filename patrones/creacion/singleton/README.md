@@ -9,12 +9,18 @@ classDiagram
     }
 
     note right of DatabaseConnection
-        _instance: atributo estático que guarda la única instancia\n
-        __new__: sobrescribe la creación del objeto para asegurar que siempre devuelva la misma instancia\n
+        _instance: atributo estático que guarda la única instancia
+    end
+
+    note right of DatabaseConnection
+        __new__: sobrescribe la creación del objeto para asegurar que siempre devuelva la misma instancia
+    end
+
+    note right of DatabaseConnection
         get_connection: proporciona acceso global a la conexión
     end
- 
 ```
+
 ### Patrón Singleton
 El patrón Singleton asegura que una clase tenga una única instancia y proporciona un punto de acceso global a ella. Este patrón es útil cuando se necesita exactamente un objeto para coordinar acciones en todo el sistema.
 
