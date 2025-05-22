@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="c8dfd587-86f3-46df-9bef-51da3c12234d" name="Changes" comment="diseno">
+      <change afterPath="$PROJECT_DIR$/afip/main.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FlaskConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform)); sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;from flask.cli import ScriptInfo, NoAppException&#10;for module in [&quot;main.py&quot;, &quot;wsgi.py&quot;, &quot;app.py&quot;]:&#10;    try: locals().update(ScriptInfo(app_import_path=module, create_app=None).load_app().make_shell_context()); print(&quot;\nFlask App: %s&quot; % app.import_name); break&#10;    except NoAppException: pass">
+    <envs>
+      <env key="FLASK_APP" value="app" />
+    </envs>
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform)); sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;from flask.cli import ScriptInfo, NoAppException&#10;for module in [&quot;main.py&quot;, &quot;wsgi.py&quot;, &quot;app.py&quot;]:&#10;    try: locals().update(ScriptInfo(app_import_path=module, create_app=None).load_app().make_shell_context()); print(&quot;\nFlask App: %s&quot; % app.import_name); break&#10;    except NoAppException: pass" />
+    <option name="myEnvs">
+      <map>
+        <entry key="FLASK_APP" value="app" />
+      </map>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;jaidar2003&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;git@github.com:jaidar2003/finalDiseno.git&quot;,
+    &quot;accountId&quot;: &quot;6d1cd024-7459-4dc4-befa-d9bad08abb6d&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
+  <component name="ProjectId" id="2wn4TQpOnHDkjIFSUJ26pY7R1G7" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;Python.1..executor&quot;: &quot;Run&quot;,
+    &quot;Python.1.executor&quot;: &quot;Run&quot;,
+    &quot;Python.afip.executor&quot;: &quot;Run&quot;,
+    &quot;Python.cliente.executor&quot;: &quot;Run&quot;,
+    &quot;Python.db.executor&quot;: &quot;Run&quot;,
+    &quot;Python.ejecutar.executor&quot;: &quot;Run&quot;,
+    &quot;Python.fabricas.executor&quot;: &quot;Run&quot;,
+    &quot;Python.factura_controller.executor&quot;: &quot;Run&quot;,
+    &quot;Python.gui.executor&quot;: &quot;Run&quot;,
+    &quot;Python.logger.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;develop&quot;,
+    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/patrones" />
+      <recent name="$PROJECT_DIR$/patrones/comportamiento" />
+      <recent name="$PROJECT_DIR$/patrones/ejemplos" />
+      <recent name="$PROJECT_DIR$/patrones/estructurales" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="finalDiseno" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-f27c65a3e318-JavaScript-PY-251.23774.444" />
+        <option value="bundled-python-sdk-890ed5b35930-d9c5bdb153f4-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-251.23774.444" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c8dfd587-86f3-46df-9bef-51da3c12234d" name="Changes" comment="" />
+      <created>1746664010403</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1746664010403</updated>
+      <workItem from="1746664011449" duration="5104000" />
+      <workItem from="1746710776092" duration="20000" />
+      <workItem from="1747068936977" duration="13366000" />
+      <workItem from="1747143493135" duration="140000" />
+      <workItem from="1747506276578" duration="3101000" />
+      <workItem from="1747514113765" duration="2490000" />
+      <workItem from="1747594925536" duration="876000" />
+      <workItem from="1747688187402" duration="2027000" />
+      <workItem from="1747690246445" duration="48000" />
+      <workItem from="1747690297286" duration="5893000" />
+      <workItem from="1747760309876" duration="4305000" />
+      <workItem from="1747825568847" duration="435000" />
+      <workItem from="1747826007703" duration="48000" />
+      <workItem from="1747826213924" duration="11673000" />
+      <workItem from="1747852646590" duration="17000" />
+    </task>
+    <task id="LOCAL-00001" summary="diseno">
+      <option name="closed" value="true" />
+      <created>1747075731296</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1747075731296</updated>
+    </task>
+    <task id="LOCAL-00002" summary="diseno">
+      <option name="closed" value="true" />
+      <created>1747076026200</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1747076026200</updated>
+    </task>
+    <task id="LOCAL-00003" summary="diseno">
+      <option name="closed" value="true" />
+      <created>1747076179861</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1747076179861</updated>
+    </task>
+    <task id="LOCAL-00004" summary="diseno">
+      <option name="closed" value="true" />
+      <created>1747508673841</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1747508673841</updated>
+    </task>
+    <task id="LOCAL-00005" summary="diseno">
+      <option name="closed" value="true" />
+      <created>1747515755110</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1747515755110</updated>
+    </task>
+    <task id="LOCAL-00006" summary="diseno">
+      <option name="closed" value="true" />
+      <created>1747515856853</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1747515856853</updated>
+    </task>
+    <task id="LOCAL-00007" summary="diseno">
+      <option name="closed" value="true" />
+      <created>1747688407596</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1747688407596</updated>
+    </task>
+    <task id="LOCAL-00008" summary="diseno">
+      <option name="closed" value="true" />
+      <created>1747688556427</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1747688556427</updated>
+    </task>
+    <task id="LOCAL-00009" summary="diseno">
+      <option name="closed" value="true" />
+      <created>1747688702439</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1747688702439</updated>
+    </task>
+    <task id="LOCAL-00010" summary="diseno">
+      <option name="closed" value="true" />
+      <created>1747689367688</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1747689367688</updated>
+    </task>
+    <task id="LOCAL-00011" summary="diseno">
+      <option name="closed" value="true" />
+      <created>1747689929703</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1747689929703</updated>
+    </task>
+    <task id="LOCAL-00012" summary="diseno">
+      <option name="closed" value="true" />
+      <created>1747744188326</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1747744188326</updated>
+    </task>
+    <task id="LOCAL-00013" summary="diseno">
+      <option name="closed" value="true" />
+      <created>1747747550366</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1747747550366</updated>
+    </task>
+    <task id="LOCAL-00014" summary="diseno">
+      <option name="closed" value="true" />
+      <created>1747826372991</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1747826372991</updated>
+    </task>
+    <task id="LOCAL-00015" summary="diseno">
+      <option name="closed" value="true" />
+      <created>1747826468863</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1747826468863</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="diseno" />
+    <option name="LAST_COMMIT_MESSAGE" value="diseno" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/finalDiseno$logger.coverage" NAME="logger Coverage Results" MODIFIED="1747072637540" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/patrones/singleton" />
+    <SUITE FILE_PATH="coverage/finalDiseno$fabricas.coverage" NAME="fabricas Coverage Results" MODIFIED="1747070200154" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/patrones/abstractFactory" />
+    <SUITE FILE_PATH="coverage/finalDiseno$afip.coverage" NAME="afip Coverage Results" MODIFIED="1747829754416" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/finalDiseno$1_.coverage" NAME="1. Coverage Results" MODIFIED="1746666622915" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/relaciones/composicion" />
+    <SUITE FILE_PATH="coverage/finalDiseno$gui.coverage" NAME="gui Coverage Results" MODIFIED="1747787259022" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/patrones/creacion/abstractFactory" />
+    <SUITE FILE_PATH="coverage/finalDiseno$1.coverage" NAME="1 Coverage Results" MODIFIED="1747508211171" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/relaciones/dependencia" />
+    <SUITE FILE_PATH="coverage/finalDiseno$factura_controller.coverage" NAME="factura_controller Coverage Results" MODIFIED="1747836040845" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/afip/controllers" />
+    <SUITE FILE_PATH="coverage/finalDiseno$cliente.coverage" NAME="cliente Coverage Results" MODIFIED="1747082482450" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/patrones/creacion/abstractFactory" />
+    <SUITE FILE_PATH="coverage/finalDiseno$db.coverage" NAME="db Coverage Results" MODIFIED="1747743998817" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/patrones/creacion/singleton" />
+    <SUITE FILE_PATH="coverage/finalDiseno$main.coverage" NAME="main Coverage Results" MODIFIED="1747838458773" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/afip" />
+    <SUITE FILE_PATH="coverage/finalDiseno$ejecutar.coverage" NAME="ejecutar Coverage Results" MODIFIED="1747834924250" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/afip/main" />
+  </component>
+</project>
